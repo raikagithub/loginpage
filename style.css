@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,300;1,500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+.container{
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #faf6f6;
+
+}
+.login{
+    width:350px;
+    padding:45px 55px;
+    border-radius: 20px;
+ 
+background: #fff;
+box-shadow:  12px 12px 36px #929292,
+             -12px -12px 36px #ffffff;
+}
+.login h1{
+    text-align: center;
+}
+form{
+    margin:35px 0;
+}
+form input{
+    width: 100%;
+    padding:8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    margin: 15px 0;
+   
+  box-shadow: inset 2px 2px 5px #66686d,
+              inset -5px -5px 10px #ffffff73;
+    
+}
+.login .btn{
+    width:100%;
+    text-align: center;
+    margin:20px 0;
+    padding:5px 0;
+    background: #ffff;
+box-shadow:  2px 2px 5px rgb(68, 64, 64);
+border-radius: 20px;
+cursor: pointer;
+transition: 0.5s ease;
+}
+.login .btn:focus{
+    background:cyan;
+    box-shadow: inset 2px 2px 5px #66686d,
+              inset -5px -5px 10px #ffffff73;
+}
+
+.login form label{
+    margin-bottom: 10px;
+}
+.login a{
+    text-decoration: none;
+    color: rgb(76, 143, 231);
+}
+
